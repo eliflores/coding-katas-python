@@ -7,13 +7,8 @@ def temperature_closest_to_zero(temperatures):
 
     closest_to_zero = temperatures[0]
     for temperature in temperatures:
-        if temperature > 0:
-            if temperature < closest_to_zero or abs(closest_to_zero) == temperature:
-                closest_to_zero = temperature
-        elif temperature < 0:
-            if temperature > closest_to_zero:
-                closest_to_zero = temperature
-        else:
+        if (abs(temperature) < abs(closest_to_zero) or
+                (abs(temperature) == abs(closest_to_zero) and temperature > 0)):
             closest_to_zero = temperature
 
     return closest_to_zero
