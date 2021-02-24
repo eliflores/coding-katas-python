@@ -22,6 +22,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run linting
-      run: pylint `ls -R | grep .py$ | xargs`
+      run: cd katas && pylint `ls -R | grep .py$ | xargs` && cd ..
     - name: Run tests
       run: pytest -vv
