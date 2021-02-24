@@ -1,4 +1,4 @@
-from loose_change_kata import loose_change
+from katas.loose_change_kata import loose_change
 
 
 def test_returns_all_coins_equal_to_0_when_given_an_amount_equal_to_0():

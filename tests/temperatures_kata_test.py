@@ -1,4 +1,4 @@
-from temperatures_kata import temperature_closest_to_zero
+from katas.temperatures_kata import temperature_closest_to_zero
 
 
 def test_returns_the_only_temperature_when_only_one_is_provided():
