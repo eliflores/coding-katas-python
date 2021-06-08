@@ -1,5 +1,4 @@
 """Codewars Rectangle into Squares Kata"""
-import math
 
 
 def square_in_rectangle(length, width):
@@ -12,11 +11,10 @@ def square_in_rectangle(length, width):
     squares = []
     while length > 0 and width > 0:
         if width < length:
-            max_square_size = width
-            length = length - max_square_size
+            squares.append(width)
+            length = length - width
         else:
-            max_square_size = length
-            width = width - max_square_size
-        squares.append(max_square_size)
+            squares.append(length)
+            width = width - length
 
     return squares
