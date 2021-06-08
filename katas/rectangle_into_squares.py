@@ -1,7 +1,7 @@
 """Codewars Rectangle into Squares Kata"""
 
 
-def square_in_rectangle(length, width):
+def squares_in_rectangle(length, width):
     """This function is the solution to the Codewars Rectangle into Squares Kata that
         can be found here https://www.codewars.com/kata/55466989aeecab5aac00003e/train/python."""
 
