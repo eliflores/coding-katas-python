@@ -7,12 +7,11 @@ def sort_array(source_array):
 
     odds = list(filter(lambda n: n % 2 == 1, source_array))
     sorted_odds = sorted(odds)
-    sorted_odds_iter = iter(sorted_odds)
     dest_array = []
     for number in source_array:
         if number % 2 == 0:
             dest_array.append(number)
         else:
-            dest_array.append(next(sorted_odds_iter))
+            dest_array.append(sorted_odds.pop(0))
 
     return dest_array
