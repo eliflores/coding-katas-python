@@ -26,7 +26,8 @@ def main():
     if number_of_temperatures == 0:
         result = 0
     else:
-        result = temperature_closest_to_zero([int(t) for t in temperatures_input])
+        result = temperature_closest_to_zero(
+            [int(t) for t in temperatures_input])
 
     print(result)
 

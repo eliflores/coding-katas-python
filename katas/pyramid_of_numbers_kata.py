@@ -14,7 +14,8 @@ import sys
 
 
 def levels_content(number_of_levels):
-    """Returns the contents of each pyramid level, given an N number of levels."""
+    """Returns the contents of each pyramid level, given an N number of
+    levels."""
     levels = []
     for level in range(1, number_of_levels + 1):
         level_content = '1'

@@ -3,7 +3,8 @@
 
 def in_array(array1, array2):
     """This function is the solution to the Codewars Which are in? Kata that
-       can be found here https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/python"""
+    can be found at:
+    https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/python"""
 
     words_in_array = set()
 

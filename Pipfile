@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 
-
 [dev-packages]
 pytest = "==6.2.2"
 pylint = "==2.6.0"
+pycodestyle = "==2.8.0"
 
 [scripts]
 tests = "pytest -vv"
 lint = "pylint katas --errors-only"
+codestyle = "pycodestyle katas tests --show-source --show-pep8 --max-line-length=80"
 
 [requires]
 python_version = "3.9"

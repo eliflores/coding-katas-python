@@ -3,7 +3,7 @@
 
 def validate(number):
     """This function is the solution to the Codewars Loose Change Kata that
-    can be found here https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2/"""
+    can be found at: https://www.codewars.com/kata/5418a1dd6d8216e18a0012b2/"""
 
     digits = [int(digit) for digit in str(number)]
     digits = every_other_digit_doubled(digits)

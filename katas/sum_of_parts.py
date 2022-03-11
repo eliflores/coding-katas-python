@@ -3,7 +3,8 @@
 
 def parts_sums(ls):
     """This function is the solution to the Codewars Loose Change Kata that
-    can be found here https://www.codewars.com/kata/5ce399e0047a45001c853c2b/train/python."""
+    can be found at
+    https://www.codewars.com/kata/5ce399e0047a45001c853c2b/train/python."""
     list_length = len(ls)
     last_sum = sum(ls)
     sums = [last_sum]
