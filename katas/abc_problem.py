@@ -1,5 +1,6 @@
 """
-You are given a collection of ABC blocks (maybe like the ones you had when you were a kid).
+You are given a collection of ABC blocks (maybe like the ones you had when you
+were a kid).
 There are twenty blocks with two letters on each block.
 A complete alphabet is guaranteed amongst all sides of the blocks.
 The sample collection of blocks:
@@ -26,11 +27,13 @@ The sample collection of blocks:
  (Z M)
 
 Task
-Write a function that takes a string (word) and determines whether the word can be spelled with the given collection of blocks.
+Write a function that takes a string (word) and determines whether the word can
+be spelled with the given collection of blocks.
 The rules are simple:
    1. Once a letter on a block is used that block cannot be used again
    2. The function should be case-insensitive
-   3. Show the output on this page for the following 7 words in the following example
+   3. Show the output on this page for the following 7 words in the following
+   example
 
 Example
 

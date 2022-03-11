@@ -27,5 +27,8 @@ jobs:
     - name: Lint
       run: pipenv run lint
 
+    - name: Codestyle
+      run: pipenv run codestyle
+
     - name: Tests
       run: pipenv run tests

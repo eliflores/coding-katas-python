@@ -3,7 +3,8 @@
 
 def duplicate_encode(word):
     """This function is the solution to the Codewars Duplicate Encoder Kata that
-        can be found here https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/python."""
+    can be found at:
+    https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/python."""
 
     word_lowercase = word.lower()
     occurrences = {}
