@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+
+[dev-packages]
+pytest = "==6.2.2"
+pylint = "==2.6.0"
+
+[scripts]
+tests = "pytest -vv"
+lint = "pylint katas --errors-only"
+
+[requires]
+python_version = "3.9"
