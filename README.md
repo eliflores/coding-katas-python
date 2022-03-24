@@ -1,6 +1,7 @@
 # Coding Katas Python
 
 ![CI](https://github.com/eliflores/coding-katas-python/workflows/CI/badge.svg)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Python solutions for Katas from
 * [Codewars](https://www.codewars.com/) :blue_heart: :yellow_heart:
