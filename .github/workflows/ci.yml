@@ -57,6 +57,10 @@ jobs:
       - name: Tests
         run: pipenv run tests
 
+      - name: Patch Coverage Source Path for SonarCloud
+        run: sed -i 's/\/home\/runner\/work\/coding-katas-python\/coding-katas-python\//\/github\/workspace\//g' coverage-reports/coverage.xml
+
+
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
