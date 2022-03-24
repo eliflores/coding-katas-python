@@ -9,9 +9,10 @@ name = "pypi"
 pytest = "==6.2.2"
 pylint = "==2.6.0"
 pycodestyle = "==2.8.0"
+pytest-cov = "==3.0.0"
 
 [scripts]
-tests = "pytest -vv"
+tests = "pytest -vv --cov-report xml --cov=katas tests/"
 lint = "pylint katas tests --errors-only"
 codestyle = "pycodestyle katas tests --show-source --show-pep8 --max-line-length=80"
 
