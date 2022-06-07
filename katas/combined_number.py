@@ -26,9 +26,5 @@ def combined_number(numbers):
             string_permutation = string_permutation + str(number)
         string_permutations.append(string_permutation)
 
-    biggest_number = 0
-    for string_permutation in string_permutations:
-        if int(string_permutation) > biggest_number:
-            biggest_number = int(string_permutation)
-
+    biggest_number = max([int(n) for n in string_permutations])
     return str(biggest_number)
