@@ -21,9 +21,8 @@ def combined_number(numbers):
     number_permutations = itertools.permutations(numbers)
     string_permutations = []
     for number_permutation in number_permutations:
-        string_permutation = ""
-        for number in number_permutation:
-            string_permutation = string_permutation + str(number)
+        string_permutation = "".join(
+            str(number) for number in number_permutation)
         string_permutations.append(string_permutation)
 
     biggest_number = max([int(n) for n in string_permutations])
