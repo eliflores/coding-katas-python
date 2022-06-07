@@ -19,11 +19,9 @@ def combined_number(numbers):
     Source [https://blog.svpino.com/about]
     """
     number_permutations = itertools.permutations(numbers)
-    string_permutations = []
-    for number_permutation in number_permutations:
-        string_permutation = "".join(
-            str(number) for number in number_permutation)
-        string_permutations.append(string_permutation)
+    string_permutations = [
+        "".join(str(number) for number in number_permutation)
+        for number_permutation in number_permutations]
 
     biggest_number = max([int(n) for n in string_permutations])
     return str(biggest_number)
