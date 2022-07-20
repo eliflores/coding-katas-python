@@ -10,6 +10,7 @@ Python solutions for Katas from
 * [Codewars](https://www.codewars.com/) :blue_heart: :yellow_heart:
 * [CodingGame](https://www.codingame.com/) :blue_heart: :yellow_heart:
 * [cyber‑dojo](https://cyber-dojo.org/) :blue_heart: :yellow_heart:
+* [Coderbyte](https://coderbyte.com/) :blue_heart: :yellow_heart:
 * Others found in the wild :blue_heart: :yellow_heart:
 
 ## How to work with this repository
