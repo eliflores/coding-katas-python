@@ -1,6 +1,7 @@
 # Coding Katas Python
 
-![CI](https://github.com/eliflores/coding-katas-python/workflows/CI/badge.svg)
+![Lint](https://github.com/eliflores/coding-katas-python/workflows/lint/badge.svg)
+![Test](https://github.com/eliflores/coding-katas-python/workflows/test/badge.svg)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eliflores_coding-katas-python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eliflores_coding-katas-python)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eliflores_coding-katas-python&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eliflores_coding-katas-python)
