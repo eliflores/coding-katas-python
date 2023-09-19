@@ -1,7 +1,7 @@
 from katas.remove_element import remove_element
 
 
-def test_sort_the_ods():
+def test_remove_element():
     list1 = [3, 2, 2, 3]
     assert remove_element(list1, 3) == 2
     assert list1 == [2, 2]
