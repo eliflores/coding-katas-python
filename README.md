@@ -19,7 +19,7 @@ Python solutions for Katas from
 1. Clone the repository
 2. Install [`pipenv`](https://pipenv.pypa.io/en/latest/)
 3. Run: `pipenv shell`
-4. Run: `pipenv install`
+4. Run: `pipenv install --dev`
 5. Write your code, write the tests, and have fun!
 
 For other the available commands to run with `pipenv`, see the [Pipfile](Pipfile).
