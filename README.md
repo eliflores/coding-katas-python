@@ -2,10 +2,11 @@
 
 ![Lint](https://github.com/eliflores/coding-katas-python/workflows/Lint/badge.svg)
 ![Test](https://github.com/eliflores/coding-katas-python/workflows/Test/badge.svg)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eliflores_coding-katas-python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eliflores_coding-katas-python)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eliflores_coding-katas-python&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eliflores_coding-katas-python)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eliflores_coding-katas-python&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=eliflores_coding-katas-python)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 Python solutions for Katas from
 * [Codewars](https://www.codewars.com/) :blue_heart: :yellow_heart:
