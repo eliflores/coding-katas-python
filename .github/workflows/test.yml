@@ -36,10 +36,9 @@ jobs:
         run: sed -i 's/\/home\/runner\/work\/coding-katas-python\/coding-katas-python\//\/github\/workspace\//g' coverage-reports/coverage.xml
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarqube-scan-action@v6
         with:
           args: >
             -Dsonar.projectVersion=${{ github.sha }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
