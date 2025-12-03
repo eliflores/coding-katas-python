@@ -7,7 +7,7 @@ name = "pypi"
 
 [dev-packages]
 pytest = "==9.0.1"
-pylint = "==4.0.3"
+pylint = "==4.0.4"
 pycodestyle = "==2.14.0"
 pytest-cov = "==7.0.0"
 
